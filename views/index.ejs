@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATShop</title>
+    <title>Computers R Us</title>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,6 +14,7 @@
     <!-- app css -->
     <link rel="stylesheet" href="../public/css/grid.css">
     <link rel="stylesheet" href="../public/css/app.css">
+    <!-- js components -->
     <script src="../public/js/app.js"></script>
     <script src="../public/js/product-detail.js"></script>
     <script src="../public/js/products.js"></script>
@@ -26,7 +27,7 @@
     <header>
         <!-- mobile menu -->
         <div class="mobile-menu bg-second">
-            <a href="#" class="mb-logo">ATShop</a>
+            <a href="#" class="mb-logo">Computers R Us</a>
             <span class="mb-menu-toggle" id="mb-menu-toggle">
                 <i class='bx bx-menu'></i>
             </span>
@@ -42,10 +43,10 @@
                 <div class="top-header container">
                     <ul class="devided">
                         <li>
-                            <a href="#">+840123456789</a>
+                            <a href="tel:+16164300720">Call us at +16164300720</a>
                         </li>
                         <li>
-                            <a href="#">atshop@mail.com</a>
+                            <a href="mailto:computersrus2002@gmail.com">Email us at computersrus2002@gmail.com</a>
                         </li>
                     </ul>
                     <ul class="devided">
@@ -53,22 +54,18 @@
                             <a href="">USD</a>
                             <i class='bx bxs-chevron-down'></i>
                             <ul class="dropdown-content">
-                                <li><a href="#">VND</a></li>
-                                <li><a href="#">JPY</a></li>
                                 <li><a href="#">EUR</a></li>
+                                <li><a href="#">MXN</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="">ENGLISH</a>
                             <i class='bx bxs-chevron-down'></i>
                             <ul class="dropdown-content">
-                                <li><a href="#">VIETNAMESE</a></li>
-                                <li><a href="#">JAPANESE</a></li>
                                 <li><a href="#">FRENCH</a></li>
                                 <li><a href="#">SPANISH</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">ORDER TRACKING</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,15 +73,14 @@
             <!-- mid header -->
             <div class="bg-main">
                 <div class="mid-header container">
-                    <a href="#" class="logo">ATShop</a>
+                    <a href="#" class="logo">Computers R Us</a>
                     <div class="search">
                         <input type="text" placeholder="Search">
                         <i class='bx bx-search-alt'></i>
                     </div>
                     <ul class="user-menu">
-                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
-                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
-                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                        <li><a href="/login"><i class='bx bx-user-circle'></i></a></li>
+                        <li><a href="/cart"><i class='bx bx-cart'></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -93,84 +89,26 @@
             <div class="bg-second">
                 <div class="bottom-header container">
                     <ul class="main-menu">
-                        <li><a href="#">home</a></li>
+                        <li><a href="/">Home</a></li>
                         <!-- mega menu -->
                         <li class="mega-dropdown">
-                            <a href="../views/products.ejs">Shop<i class='bx bxs-chevron-down'></i></a>
+                            <a href="/products">Shop<i class='bx bxs-chevron-down'></i></a>
                             <div class="mega-content">
                                 <div class="row">
                                     <div class="col-3 col-md-12">
                                         <div class="box">
                                             <h3>Categories</h3>
                                             <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
+                                                <li><a href="/amd">AMD</a></li>
+                                                <li><a href="/intel">Intel</a></li>
                                             </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-md-12">
-                                        <div class="box">
-                                            <h3>Categories</h3>
-                                            <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-md-12">
-                                        <div class="box">
-                                            <h3>Categories</h3>
-                                            <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-3 col-md-12">
-                                        <div class="box">
-                                            <h3>Categories</h3>
-                                            <ul>
-                                                <li><a href="#">Wireless</a></li>
-                                                <li><a href="#">Inear headphone</a></li>
-                                                <li><a href="#">Overear headphone</a></li>
-                                                <li><a href="#">sport headphone</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row img-row">
-                                    <div class="col-3">
-                                        <div class="box">
-                                            <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box">
-                                            <img src="./images/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box">
-                                            <img src="./images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-3">
-                                        <div class="box">
-                                            <img src="./images/JBLHorizon_001_dvHAMaster.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <!-- end mega menu -->
-                        <li><a href="#">blog</a></li>
-                        <li><a href="#">contact</a></li>
+                        <li><a href="/contact_us">contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -189,13 +127,13 @@
                     <div class="info">
                         <div class="info-content">
                             <h3 class="top-down">
-                                JBL TUNE 750TNC
+                                Computers R Us
                             </h3>
                             <h2 class="top-down trans-delay-0-2">
-                                Next-gen design
+                                Next-gen design and performance
                             </h2>
                             <p class="top-down trans-delay-0-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolor commodi dignissimos culpa, eaque eos necessitatibus possimus veniam, cupiditate rerum deleniti? Libero, ducimus error? Beatae velit dolore sint explicabo! Fugit.
+                                With our AMD builds, you will never experience any lag and will love the design and performance you get from them.
                             </p>
                             <div class="top-down trans-delay-0-6">
                                 <button class="btn-flat btn-hover">
@@ -205,7 +143,7 @@
                         </div>
                     </div>
                     <div class="img top-down">
-                        <img src="./images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+                        <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="Picture of gaming pc">
                     </div>
                 </div>
                 <!-- end slide item -->
@@ -214,13 +152,13 @@
                     <div class="info">
                         <div class="info-content">
                             <h3 class="top-down">
-                                JBL Quantum ONE
+                                Computers R Us
                             </h3>
                             <h2 class="top-down trans-delay-0-2">
-                                Ipsum dolor
+                                Next gen design and performance
                             </h2>
                             <p class="top-down trans-delay-0-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio, voluptatum aperiam nobis quis maxime corporis porro alias soluta sunt quae consectetur aliquid blanditiis perspiciatis labore cumque, ullam, quam eligendi!
+                                With our Intel builds, you will never experience any lag and will love the design and performance you get from them.
                             </p>
                             <div class="top-down trans-delay-0-6">
                                 <button class="btn-flat btn-hover">
@@ -230,7 +168,7 @@
                         </div>
                     </div>
                     <div class="img right-left">
-                        <img src="./images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png" alt="">
+                        <img src="../public/media/images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png" alt="">
                     </div>
                 </div>
                 <!-- end slide item -->
@@ -255,7 +193,7 @@
                         </div>
                     </div>
                     <div class="img left-right">
-                        <img src="./images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                        <img src="../public/media/images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
                     </div>
                 </div>
                 <!-- end slide item -->
@@ -278,28 +216,19 @@
             <div class="col-4 col-md-12 col-sm-12">
                 <div class="promotion-box">
                     <div class="text">
-                        <h3>Headphone & Earbuds</h3>
+                        <h3>AMD Computers</h3>
                         <button class="btn-flat btn-hover"><span>shop collection</span></button>
                     </div>
-                    <img src="./images/JBLHorizon_001_dvHAMaster.png" alt="">
+                    <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
                 </div>
             </div>
             <div class="col-4 col-md-12 col-sm-12">
                 <div class="promotion-box">
                     <div class="text">
-                        <h3>JBL Quantum Series</h3>
+                        <h3>Intel Computers</h3>
                         <button class="btn-flat btn-hover"><span>shop collection</span></button>
                     </div>
-                    <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
-                </div>
-            </div>
-            <div class="col-4 col-md-12 col-sm-12">
-                <div class="promotion-box">
-                    <div class="text">
-                        <h3>True Wireless Earbuds</h3>
-                        <button class="btn-flat btn-hover"><span>shop collection</span></button>
-                    </div>
-                    <img src="./images/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png" alt="">
+                    <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
                 </div>
             </div>
         </div>
