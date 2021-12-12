@@ -9,7 +9,6 @@
     "node": "^17.2.0",
     "nodemon": "^2.0.15"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
